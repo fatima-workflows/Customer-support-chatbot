@@ -1,0 +1,319 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Salam",
+        "Assalam o Alaikum",
+        "Assalamu alaikum",
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "What's up",
+        "Hello there",
+        "Greetings",
+        "Howdy",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! 👋 How can I assist you today?",
+        "Hi there! 😊 What can I do for you?",
+        "Walaikum Assalam! How may I help you?",
+        "Wslam! How's your day going? How can I support you today?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "What are your delivery options?",
+        "When will my order be delivered?",
+        "Mera order mjhy kb mly ga?",
+        "Delivery charges kya hain?",
+        "Free shipping hasil krny ki condition kia hai?",
+        "Mujhe batao delivery kitne din mai hoti hai?",
+        "Is there free shipping?",
+        "Do you offer express delivery?",
+        "Delivery time kitna hota hai?",
+        "How long does delivery take?",
+        "Shipping cost kya hai?",
+        "Delivery kitne din mein hogi?",
+        "When will I receive my order?",
+        "Delivery options batao",
+        "Free delivery kab milti hai?",
+        "Express delivery hai?",
+        "Delivery kahan tak hoti hai?",
+        "Do you deliver to my area?"
+      ],
+      "responses": [
+        "We usually deliver within 3 to 5 business days. 🚚 Delivery charges depend on your location, but orders above Rs. 3000 get FREE shipping! You can also choose express delivery for faster shipping.",
+        "Yes, we deliver all across Pakistan! Standard delivery takes 3-5 business days. Orders above Rs. 3000 qualify for free shipping.",
+        "Delivery charges depend on your location, but orders above Rs. 3000 get *free shipping*! We also offer express delivery for faster shipping.",
+        "Hum 3 se 5 business days mein deliver karte hain. Agar aapka order Rs. 3000 se zyada hai to shipping FREE hai! 🚚"
+      ]
+    },
+    {
+      "tag": "how_to_order",
+      "patterns": [
+        "How can I place an order?",
+        "Mujhe order karna hai, kaise karun?",
+        "Can I order through WhatsApp?",
+        "How do I buy something?",
+        "Order place karne ka tariqa batao",
+        "Can I order without making an account?",
+        "I'm confused about placing an order",
+        "Order kaise place karte hain?",
+        "Buying process kya hai?",
+        "WhatsApp se order kar sakte hain?",
+        "How to purchase?",
+        "Checkout kaise kare?",
+        "Order process batao",
+        "Without account order kar sakte hain?"
+      ],
+      "responses": [
+        "It's super easy! Just browse products, click 'Add to Cart', and then go to checkout. 🛒 You can even place an order without creating an account!",
+        "Aap product select karein, 'Add to Cart' pe click karein, aur 'Checkout' pe ja kar order place karein. Account banane ki zarurat nahi hai!",
+        "You can also message us on WhatsApp at +923291684996 for quick orders!",
+        "No worries! Browse our products, add them to cart, and checkout. It's that simple! You can order without an account too."
+      ]
+    },
+    {
+      "tag": "payment_method",
+      "patterns": [
+        "What are your payment methods?",
+        "Do you accept card payments?",
+        "Payment kaise karni hai?",
+        "Is full COD available?",
+        "Can I pay cash on delivery?",
+        "Mujhe online payment karni hai, kaise karun?",
+        "Do you take Easypaisa or JazzCash?",
+        "Is there a cash on delivery option?",
+        "Payment options kya hain?",
+        "COD available hai?",
+        "Online payment kar sakte hain?",
+        "Bank transfer accept karte ho?",
+        "Card se pay kar sakte hain?",
+        "Advance payment kitna hai?",
+        "COD charges kitne hain?",
+        "What payment do you accept?"
+      ],
+      "responses": [
+        "We accept Cash on Delivery (COD), Bank Transfer, Easypaisa, and JazzCash. 💳 For COD orders, an advance payment of Rs. 300 is required as delivery charges to confirm your order.",
+        "You can pay using Cash on Delivery, Easypaisa, JazzCash, or Bank Transfer. Please note: COD orders require Rs. 300 advance payment as delivery charges.",
+        "Payment options: COD (Rs. 300 advance required), Bank Transfer, Easypaisa, JazzCash – whatever suits you best!",
+        "Aap Cash on Delivery, Bank Transfer, Easypaisa ya JazzCash use kar sakte hain. COD ke liye Rs. 300 advance delivery charges dene honge."
+      ]
+    },
+    {
+      "tag": "return_exchange",
+      "patterns": [
+        "What is your return policy?",
+        "Can I exchange my order?",
+        "Mjhy product change krna hai kia process hai?",
+        "Return ka process kya hai?",
+        "Mujhe product pasand nahi aya, return kar sakti hoon?",
+        "How many days do I have to return an item?",
+        "Kitny days m item return kr skty hn?",
+        "Can I get a refund?",
+        "Mjhy refund chahiye!",
+        "Exchange policy batao please",
+        "Return policy kya hai?",
+        "Exchange kaise kare?",
+        "Product wapas kar sakte hain?",
+        "7 days return hai?",
+        "Refund milega?",
+        "Damaged item mila hai",
+        "Wrong item received",
+        "Unboxing video zaruri hai?",
+        "Return conditions kya hain?"
+      ],
+      "responses": [
+        "You can return or exchange items within 7 days of delivery. 🛍️ Product must be unused, unworn, and in original packaging with all tags. Used, washed, or damaged items won't be accepted.",
+        "For damaged or wrong items, please record an unedited unboxing video and share it with our support team within 24 hours for a smooth return/exchange process.",
+        "Aap 7 din ke andar return ya exchange kar sakte hain. Product unused aur original packaging mein hona chahiye. Agar damaged item mili hai to unboxing video 24 hours mein share karein.",
+        "Return Policy: Items can be returned within 7 days. Must be unused with original tags. For damaged/wrong items, provide unboxing video within 24 hours. Contact support team for assistance."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact customer support?",
+        "Mujhe help chahiye",
+        "Can I talk to a representative?",
+        "Contact number kya hai?",
+        "Email address batao please",
+        "Mujhe complaint register karni hai",
+        "Customer care se baat karni hai",
+        "Support team ka number?",
+        "WhatsApp number kya hai?",
+        "Email ID batao",
+        "Complaint kaise kare?",
+        "Customer service contact",
+        "How to reach you?",
+        "Contact details",
+        "Support contact info"
+      ],
+      "responses": [
+        "Our support team is always here to help! 😊 You can contact us via WhatsApp at +923291684996 or email us at fefetrendsofficial@gmail.com.",
+        "Feel free to message our customer care team – they'll respond within 24 hours! WhatsApp: +923291684996 | Email: fefetrendsofficial@gmail.com",
+        "Aap hume WhatsApp (+923291684996) ya email (fefetrendsofficial@gmail.com) ke zariye contact kar sakti hain, hum jaldi reply karte hain."
+      ]
+    },
+    {
+      "tag": "track_order",
+      "patterns": [
+        "Where is my order?",
+        "How can I track my order?",
+        "Order track karna hai",
+        "Order ka status kya hai?",
+        "Mujhe apna parcel track karna hai",
+        "Track my parcel please",
+        "Order status check karna hai",
+        "Mera order kahan hai?",
+        "Tracking kaise kare?",
+        "Order ID se track kaise kare?",
+        "Parcel ka status batao",
+        "Delivery status kya hai?"
+      ],
+      "responses": [
+        "You can easily track your order by visiting the 'Track Order' page on our website and entering your order ID. 📦",
+        "Aap apna order track kar sakty hain website ke 'Track Order' section mai, bas apna Order ID enter karein.",
+        "If you need help tracking, share your order ID with us and we'll update you! You can also track on our website's 'Track Order' page."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Are there any discounts?",
+        "Do you have any sale right now?",
+        "Koi offer chal rahi hai?",
+        "Discount kab milta hai?",
+        "Mujhe coupon code chahiye",
+        "Any promo code available?",
+        "Current sales kya hain?",
+        "Offer mil sakta hai?",
+        "Discount code hai?",
+        "Sale chal rahi hai?",
+        "Special offers?",
+        "Promotions available?",
+        "Koi deal hai?"
+      ],
+      "responses": [
+        "Yes! We often run seasonal sales and special offers. 🎉 Check our website's homepage or subscribe to our newsletter to stay updated!",
+        "Currently our Winter Sale is live – don't miss out! 🛍️ Follow our social media pages to stay updated on upcoming offers and new arrivals. 📱",
+        "Join our WhatsApp community to get exclusive deals and early sale alerts directly on your phone! 💬",
+        "Filhal humari Winter Sale chal rahi hai! Social media aur WhatsApp community join karein for exclusive deals."
+      ]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": [
+        "Is this product available?",
+        "Ye item stock mai hai?",
+        "Do you have this size?",
+        "Color available hai?",
+        "When will this be back in stock?",
+        "Product out of stock hai, kab ayega?",
+        "Stock mein hai?",
+        "Available hai ye?",
+        "Size mil sakta hai?",
+        "Restock kab hoga?",
+        "Out of stock items",
+        "Product availability check karna hai"
+      ],
+      "responses": [
+        "Please share the product name or screenshot so I can check availability for you. 😊",
+        "Some products restock quickly – keep an eye on our WhatsApp community and follow our Facebook and Instagram pages!",
+        "If a product is out of stock, we will notify you immediately as soon as it restocks. Please share which product you're interested in."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "What can you do?",
+        "I need assistance",
+        "I am confused",
+        "How can you assist me?",
+        "Mujhe help chahiye",
+        "Kya aap meri madad kar sakte hain?",
+        "Mujhe samajh nahi aa raha",
+        "Kya aap guide karenge?",
+        "Assistance chahiye",
+        "Guide karo please",
+        "Help me",
+        "Madad karo"
+      ],
+      "responses": [
+        "Sure! I'm here to help – just tell me what you need. I can assist with orders, payments, delivery, returns, tracking, and more.",
+        "Yes, I can guide you. Just explain what you're trying to do. I'm here to help with any questions!",
+        "No worries! I can provide information on orders, payments, delivery, returns, discounts, and product availability.",
+        "Main aapki madad kar sakta hoon! Aapko order, payment, delivery ya return se related queries ho to bataiye. I can also guide you step by step."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Shukriya",
+        "Thank you so much",
+        "Thanks a lot",
+        "Bohat shukriya",
+        "Thanku",
+        "Thx",
+        "Ty",
+        "Appreciate it",
+        "Thanks for help",
+        "Thank you for your help"
+      ],
+      "responses": [
+        "You're most welcome! 😊",
+        "My pleasure! Always here to help.",
+        "Shukriya! Glad I could assist you.",
+        "You're welcome – happy to help anytime!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Khuda hafiz",
+        "Allah Hafiz",
+        "See you",
+        "Take care",
+        "Bye bye",
+        "Gotta go",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! 👋 Have a great day!",
+        "Allah Hafiz! Stay safe and take care.",
+        "Bye! Hope to chat with you again soon. 😊",
+        "Take care! Feel free to reach out anytime you need help!"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "random text",
+        "abcd",
+        "unknown question",
+        "none of the above",
+        "xyz",
+        "test",
+        "random"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you please rephrase?",
+        "Hmm, I'm not sure I got that. Can you try asking in another way?",
+        "Sorry, I didn't understand 😅. Please ask something related to delivery, orders, payments, returns, or product availability."
+      ]
+    }
+  ]
