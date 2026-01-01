@@ -44,8 +44,10 @@ Full production deployment with Docker/cloud hosting
 
 
 👤 Developer
-Fatima Butt
-AI Engineer | NLP Specialist | Data Analyst
+
+Fatima Butt| AI Engineer | NLP Specialist | Data Analyst
 Specialized in building intelligent automation solutions using ML and conversational AI.
-📧insightsbyfatimabutt@gmail.com | 💼https://www.linkedin.com/in/fatima-butt-6b152339b/ | 🔗https://github.com/fatima-workflows
+📧insightsbyfatimabutt@gmail.com  
+💼https://www.linkedin.com/in/fatima-butt-6b152339b/ 
+🔗https://github.com/fatima-workflows
 Open to: AI/ML roles, freelance projects, and consulting opportunities
